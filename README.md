@@ -34,10 +34,9 @@ The breadth first search algorithm traverses the graph starting from a node in t
 
 In abstract terms, for a matrix representation, we need a n X n matrix of boolean values, where n is the number of vertices in graph. For Example, the following would be a representaion for a graph with 2 vertices that are connected together:
 
-	V1	V2
-V1	0	1
-
-V2	1	0
+V1	V2
+0	1	V1
+1	0	V2
 
 By careful examination, we conclude that, this matrix must have *ALL* of the following properties to be a valid representation described in the graph interface specifications:
 
